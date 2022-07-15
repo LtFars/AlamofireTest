@@ -7,23 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0312B3422881C62B00DA9494 /* MainAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0312B3412881C62B00DA9494 /* MainAssembly.swift */; };
+		0312B3442881C64500DA9494 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0312B3432881C64500DA9494 /* CardModel.swift */; };
+		0312B3462881C67200DA9494 /* MainCardTablePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0312B3452881C67200DA9494 /* MainCardTablePresenter.swift */; };
+		0312B34A2881C6B100DA9494 /* CardInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0312B3492881C6B100DA9494 /* CardInfoViewController.swift */; };
+		0312B34C2881C6CC00DA9494 /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0312B34B2881C6CC00DA9494 /* CardCell.swift */; };
+		0312B34E2881C6FD00DA9494 /* MainCardTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0312B34D2881C6FD00DA9494 /* MainCardTableViewController.swift */; };
+		0312B3502881C73D00DA9494 /* MainCardTableViewControllerInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0312B34F2881C73D00DA9494 /* MainCardTableViewControllerInput.swift */; };
+		0312B3522881C74D00DA9494 /* MainCardTableViewControllerOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0312B3512881C74D00DA9494 /* MainCardTableViewControllerOutput.swift */; };
 		03C741E42881C29A0061AC44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C741E32881C29A0061AC44 /* AppDelegate.swift */; };
-		03C741E62881C29A0061AC44 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C741E52881C29A0061AC44 /* SceneDelegate.swift */; };
-		03C741E82881C29A0061AC44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C741E72881C29A0061AC44 /* ViewController.swift */; };
-		03C741EB2881C29A0061AC44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03C741E92881C29A0061AC44 /* Main.storyboard */; };
 		03C741ED2881C29B0061AC44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03C741EC2881C29B0061AC44 /* Assets.xcassets */; };
 		03C741F02881C29B0061AC44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03C741EE2881C29B0061AC44 /* LaunchScreen.storyboard */; };
+		EAADF5EF7945BFC252712BC3 /* Pods_AlamofireTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D00FBBC67FB734A35E16D122 /* Pods_AlamofireTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0312B3412881C62B00DA9494 /* MainAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAssembly.swift; sourceTree = "<group>"; };
+		0312B3432881C64500DA9494 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		0312B3452881C67200DA9494 /* MainCardTablePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCardTablePresenter.swift; sourceTree = "<group>"; };
+		0312B3492881C6B100DA9494 /* CardInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardInfoViewController.swift; sourceTree = "<group>"; };
+		0312B34B2881C6CC00DA9494 /* CardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
+		0312B34D2881C6FD00DA9494 /* MainCardTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCardTableViewController.swift; sourceTree = "<group>"; };
+		0312B34F2881C73D00DA9494 /* MainCardTableViewControllerInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCardTableViewControllerInput.swift; sourceTree = "<group>"; };
+		0312B3512881C74D00DA9494 /* MainCardTableViewControllerOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCardTableViewControllerOutput.swift; sourceTree = "<group>"; };
 		03C741E02881C29A0061AC44 /* AlamofireTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlamofireTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03C741E32881C29A0061AC44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		03C741E52881C29A0061AC44 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		03C741E72881C29A0061AC44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		03C741EA2881C29A0061AC44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		03C741EC2881C29B0061AC44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03C741EF2881C29B0061AC44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03C741F12881C29B0061AC44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		699D7E5C708A50E2264763F9 /* Pods-AlamofireTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlamofireTest.release.xcconfig"; path = "Target Support Files/Pods-AlamofireTest/Pods-AlamofireTest.release.xcconfig"; sourceTree = "<group>"; };
+		D00FBBC67FB734A35E16D122 /* Pods_AlamofireTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlamofireTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB28A7004290EF68B63C8C4C /* Pods-AlamofireTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlamofireTest.debug.xcconfig"; path = "Target Support Files/Pods-AlamofireTest/Pods-AlamofireTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,125 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAADF5EF7945BFC252712BC3 /* Pods_AlamofireTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0312B3392881C58800DA9494 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0312B3542881C81000DA9494 /* Storyboards */,
+				0312B3532881C80800DA9494 /* Config */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0312B33A2881C58F00DA9494 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				0312B33B2881C5B300DA9494 /* App */,
+				0312B33C2881C5C100DA9494 /* MainCardTable */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		0312B33B2881C5B300DA9494 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				03C741E32881C29A0061AC44 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		0312B33C2881C5C100DA9494 /* MainCardTable */ = {
+			isa = PBXGroup;
+			children = (
+				0312B3402881C61300DA9494 /* Assembly */,
+				0312B33F2881C60F00DA9494 /* Model */,
+				0312B33E2881C60700DA9494 /* View */,
+				0312B33D2881C5FB00DA9494 /* Presenter */,
+			);
+			path = MainCardTable;
+			sourceTree = "<group>";
+		};
+		0312B33D2881C5FB00DA9494 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				0312B3452881C67200DA9494 /* MainCardTablePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		0312B33E2881C60700DA9494 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0312B3472881C69800DA9494 /* CardView */,
+				0312B3482881C69C00DA9494 /* Cell */,
+				0312B34D2881C6FD00DA9494 /* MainCardTableViewController.swift */,
+				0312B34F2881C73D00DA9494 /* MainCardTableViewControllerInput.swift */,
+				0312B3512881C74D00DA9494 /* MainCardTableViewControllerOutput.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0312B33F2881C60F00DA9494 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0312B3432881C64500DA9494 /* CardModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0312B3402881C61300DA9494 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				0312B3412881C62B00DA9494 /* MainAssembly.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		0312B3472881C69800DA9494 /* CardView */ = {
+			isa = PBXGroup;
+			children = (
+				0312B3492881C6B100DA9494 /* CardInfoViewController.swift */,
+			);
+			path = CardView;
+			sourceTree = "<group>";
+		};
+		0312B3482881C69C00DA9494 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				0312B34B2881C6CC00DA9494 /* CardCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		0312B3532881C80800DA9494 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				03C741F12881C29B0061AC44 /* Info.plist */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		0312B3542881C81000DA9494 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				03C741EE2881C29B0061AC44 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 		03C741D72881C29A0061AC44 = {
 			isa = PBXGroup;
 			children = (
 				03C741E22881C29A0061AC44 /* AlamofireTest */,
 				03C741E12881C29A0061AC44 /* Products */,
+				6FD13FA55E29B2370FD7F96D /* Pods */,
+				F8A1DFEBB27D110B6FA14862 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +178,28 @@
 		03C741E22881C29A0061AC44 /* AlamofireTest */ = {
 			isa = PBXGroup;
 			children = (
-				03C741E32881C29A0061AC44 /* AppDelegate.swift */,
-				03C741E52881C29A0061AC44 /* SceneDelegate.swift */,
-				03C741E72881C29A0061AC44 /* ViewController.swift */,
-				03C741E92881C29A0061AC44 /* Main.storyboard */,
+				0312B33A2881C58F00DA9494 /* Sources */,
+				0312B3392881C58800DA9494 /* Resources */,
 				03C741EC2881C29B0061AC44 /* Assets.xcassets */,
-				03C741EE2881C29B0061AC44 /* LaunchScreen.storyboard */,
-				03C741F12881C29B0061AC44 /* Info.plist */,
 			);
 			path = AlamofireTest;
+			sourceTree = "<group>";
+		};
+		6FD13FA55E29B2370FD7F96D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB28A7004290EF68B63C8C4C /* Pods-AlamofireTest.debug.xcconfig */,
+				699D7E5C708A50E2264763F9 /* Pods-AlamofireTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F8A1DFEBB27D110B6FA14862 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D00FBBC67FB734A35E16D122 /* Pods_AlamofireTest.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +209,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 03C741F42881C29B0061AC44 /* Build configuration list for PBXNativeTarget "AlamofireTest" */;
 			buildPhases = (
+				436C4EDBAD66DBA2406C545A /* [CP] Check Pods Manifest.lock */,
 				03C741DC2881C29A0061AC44 /* Sources */,
 				03C741DD2881C29A0061AC44 /* Frameworks */,
 				03C741DE2881C29A0061AC44 /* Resources */,
+				427BF47362C78A7E58AD5208 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +264,73 @@
 			files = (
 				03C741F02881C29B0061AC44 /* LaunchScreen.storyboard in Resources */,
 				03C741ED2881C29B0061AC44 /* Assets.xcassets in Resources */,
-				03C741EB2881C29A0061AC44 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		427BF47362C78A7E58AD5208 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlamofireTest/Pods-AlamofireTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlamofireTest/Pods-AlamofireTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AlamofireTest/Pods-AlamofireTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		436C4EDBAD66DBA2406C545A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlamofireTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		03C741DC2881C29A0061AC44 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03C741E82881C29A0061AC44 /* ViewController.swift in Sources */,
+				0312B34A2881C6B100DA9494 /* CardInfoViewController.swift in Sources */,
+				0312B3462881C67200DA9494 /* MainCardTablePresenter.swift in Sources */,
+				0312B3522881C74D00DA9494 /* MainCardTableViewControllerOutput.swift in Sources */,
+				0312B34C2881C6CC00DA9494 /* CardCell.swift in Sources */,
 				03C741E42881C29A0061AC44 /* AppDelegate.swift in Sources */,
-				03C741E62881C29A0061AC44 /* SceneDelegate.swift in Sources */,
+				0312B3422881C62B00DA9494 /* MainAssembly.swift in Sources */,
+				0312B34E2881C6FD00DA9494 /* MainCardTableViewController.swift in Sources */,
+				0312B3442881C64500DA9494 /* CardModel.swift in Sources */,
+				0312B3502881C73D00DA9494 /* MainCardTableViewControllerInput.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		03C741E92881C29A0061AC44 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				03C741EA2881C29A0061AC44 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		03C741EE2881C29B0061AC44 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -284,16 +460,17 @@
 		};
 		03C741F52881C29B0061AC44 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB28A7004290EF68B63C8C4C /* Pods-AlamofireTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AlamofireTest/Info.plist;
+				INFOPLIST_FILE = AlamofireTest/Resources/Config/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -311,16 +488,17 @@
 		};
 		03C741F62881C29B0061AC44 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 699D7E5C708A50E2264763F9 /* Pods-AlamofireTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AlamofireTest/Info.plist;
+				INFOPLIST_FILE = AlamofireTest/Resources/Config/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
